@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+			<meta charset="UTF-8">
+			<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+			<link rel="javascript">
+			<script>
+				function mostrarAlerta() {
+					alert('¡Has enviado tus datos con éxito.');
+				}
+			</script>
+	</head>
+
+
+		<body>
+			<div id="menu1">
+				<div id="estilo">
+					<ul class="nav" style="font-size: 27px;">
+				  	
+						<li role="presentation" style="margin-right:5px; margin-left:-65px; float:left; margin-top:-28px; list-style:none;">
+							<img src=""/>
+						 </li>
+							
+						 <li role="presentation" style="margin-right:90px; margin-left:-31px; float:left; margin-top:-10px; list-style:none;">
+							<label style="font-size:45px; color: white; list-style:none;">
+								 CURSO PROGRAMACION
+									</label><br>
+										<label style="font-size:15px; margin-top:-5px; color: white; margin-left:11px; float:left; list-style:none;">
+											Programación full stack
+										</label>	
+						  </li>
+                        <li>
+					    <a href="index.html" class="menu">
+					     <label style="font-size:20px; font-family:arial; color: rgb(236, 229, 229);"> Inicio</label>
+					    </a>
+					</li>
+
+                   
+                        <li>
+					    <a href="multimedia.html" class="menu">
+					      <label style="font-size:20px; font-family:arial; color: rgb(236, 229, 229);">  Material </label></a>
+					</li>
+					<li>
+					    <a href="actividades.html" class="menu">
+					      <label style="font-size:20px; font-family:arial; color: rgb(236, 229, 229);">  Contactenos</label> </a>
+					</li>
+					
+				</ul>
+				</div>
+			</div>
+			</div>
+
+
+			<div id="contenido">
+				<div id="izquierda">
+					<div class="izqui" style="margin-top:48px; align-items: center;">
+							<table style="align-items: center;">
+								<tr><center>
+									
+										<h3>Datos Personales</h3>
+									
+
+								</tr></center>
+								<tr>
+									
+									<td>
+										<br>Nombres
+										<br><br><input type="text" id="nombre" value="">
+																		
+									</td>									
+									<td>
+										<br>
+										Apellidos
+										<br><br><input type="text" id="apellido" value="">
+																
+									</td>
+									<td>
+										<br>
+										Municipio/ciudad
+										<br><br><select name="municipio" id="Municipio">
+											<option value="0">Seleccione</option>
+											<option value="1">Bogota</option>
+											<option value="2">Cali</option>
+											<option value="3">Medellin</option>
+											<option value="4">Armenia</option>
+											<option value="5">Manizales</option>
+											<option value="6">otras ciudades</option>
+										</select> 
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<br>
+										Telefono Celular
+										<br><br><input type="text" id="telefono" value="">
+									</td>
+									<td>
+										<br>
+										Correo electronico
+										<br><br><input type="text" id="email" value="">
+									</td>
+									<td>
+										<br>
+										Fecha de nacimiento
+										<br><br><input type="date" id="nacimiento" value="">
+									</td>
+																	
+								</tr>
+									
+							</table>
+							<br><br><button type="reset" onclick="mostrarAlerta()">Enviar</button>	
+					</div>
+                    
+				</div>
+			</div>
+			
+			
+		</body>
+</html>
